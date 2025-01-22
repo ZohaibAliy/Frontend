@@ -1,0 +1,88 @@
+table {
+    background: linear-gradient(90deg, #bfbfbf, #d4d8ff); /* Gradient background */
+    color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  th, td {
+    text-align: center;
+    padding: 15px;
+  }
+  thead th {
+    background: #6610f2; /* Darker color for the header */
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle hover effect */
+    transition: background-color 0.3s ease;
+  }
+  tbody td {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .table-container {
+    padding: 20px;
+    position: relative;
+  }
+  .add-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .add-button:hover {
+    background-color: #218838;
+  }
+  .action-button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  .edit-button {
+    background-color: #ffc107;
+  }
+  .edit-button:hover {
+    background-color: #e0a800;
+  }
+  .delete-button {
+    background-color: #dc3545;
+  }
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  

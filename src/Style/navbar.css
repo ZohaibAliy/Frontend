@@ -1,0 +1,27 @@
+.navbar {
+    background: linear-gradient(90deg, #007bff, #6610f2); /* Gradient background */
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white !important;
+  }
+  .navbar-nav .nav-link {
+    color: white !important;
+    padding: 0 15px;
+    transition: color 0.3s ease;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #ffc107 !important; /* Yellow hover effect */
+  }
+  .nav-item .active {
+    color: #ffc107 !important;
+    font-weight: bold;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler-icon {
+    background-color: white;
+    border-radius: 3px;
+  }
